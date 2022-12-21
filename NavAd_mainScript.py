@@ -40,7 +40,7 @@ terrChangeArr = [["003939","Bob Smith"]]
 #inputs for zone import(1): 1 filepath (directs to wherever weekly zone imports are stored)
 #--date suffix can be used to automate further as long as .xlsx doc name is prepared with same date as script run-date
 ziDate = datetime.now().strftime("%Y%m%d")
-zoneImport("/Users/The-Intern/Downloads/zones_import_by_date" + str(ziDate) + ".xlsx")
+zoneImport("/Users//Downloads/zones_import_by_date" + str(ziDate) + ".xlsx")
 
 #inputs for correct M actuals (2): 1 start date, 1 end date
 correctMActuals()
