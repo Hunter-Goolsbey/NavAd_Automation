@@ -623,7 +623,7 @@ def postSECommissions():
 		
 					break
 		
-		driver.get("https://online4.timeanywhere.com/TimeanywhereExt2/load-timeanywhere1?page=%2Fnovatime%2Fattendance_summary.aspx%3FQPZM%3D131b3a971cfa4e37814691ff41d8ea2d")
+		driver.get("https://online4.timeanywhere.com/TimeanywhereExt2/load-timeanywhere1?page=%2Fnovatime%2Fattendance_summary.aspx")
 
     
 def closeWindow():
